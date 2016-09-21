@@ -1,0 +1,360 @@
+/*
+Theme Name: Alloygator
+*/
+body			{color: #5f6a73; font-family: "calibri", Garamond, 'Comic Sans'; font-size: 14px;}
+img, div, span, h1, h2, h3, h4, p, ul, li	{margin: 0px; padding: 0px; border: none;}
+div			{position: relative; float: left;}
+a			{color: #5f6a73; text-decoration: none; border: none;}
+h1			{color: #b0e501; font-size: 35px; margin-bottom: 10px; font-family: 'PT Sans Narrow', sans-serif; text-transform: uppercase;}
+h2			{color: #b0e501; font-size: 25px; margin-bottom: 5px; font-family: 'PT Sans Narrow', sans-serif; text-transform: uppercase;}
+h3			{font-weight: bold; font-size: 24px;}
+h4			{color: #ffffff; font-size: 13px;}
+p			{font-size: 17px; margin-bottom: 20px;}
+table			{border-collapse:collapse;}
+input			{color: #5f6a73; background-color: #ffffff; border: solid 1px #C7C7C7; font-family: "calibri", Garamond, 'Comic Sans';}
+textarea			{color: #5f6a73; background-color: #ffffff; border: solid 1px #C7C7C7; font-family: "calibri", Garamond, 'Comic Sans';}
+select			{color: #5f6a73; background-color: #ffffff; border: solid 1px #C7C7C7; font-family: "calibri", Garamond, 'Comic Sans';}
+
+
+
+.purplebutton{
+	background-color:#990033;color: #ffffff; padding: 5px; font-weight: bold; font-family: 'PT Sans Narrow', sans-serif; cursor: pointer; width:200px 
+}
+
+.itemadded		{border: solid 1px #5f6a73; background-color: #b0e501; color: #5f6a73; padding: 5px 5px 5px 0px; font-weight: bold;}
+.testimonialbox		{border-bottom: dashed 1px; margin-bottom: 20px;}
+.testimonialimages p	{margin-bottom: 0px;}
+.testimonialtext	{margin-top: 20px;}
+.testimonialtext p	{margin-bottom: 10px;}
+.alert			{padding-left: 20px; color: #820405;}
+.galleryfolder		{width: 28%; margin-right: 5%; margin-bottom: 20px;}
+.folderimagewrapper	{height: 180px; overflow: hidden;}
+.underline		{text-decoration: underline;}
+.centered		{width: 970px; margin-left: auto; margin-right: auto; float: none;}
+.obsurethebackground	{position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 998; opacity: 0.5; background: none repeat scroll 0% 0% #5F5F5F;}
+.loginbox		{padding: 20px; width: 440px; margin-top: -200px; top: 50%; margin-left: -220px; left: 50%; position: absolute; display: inline-block; vertical-align: middle; background-color: #ffffff; z-index: 999; box-shadow: 3px 3px 0px #969593;}
+.loginbox h2		{font-size: 25px; margin-bottom: 20px;}
+.userdashboard		{padding: 20px; width: 350px; margin-top: -200px; top: 50%; margin-left: -175px; left: 50%; position: absolute; display: inline-block; vertical-align: middle; background-color: #ffffff; z-index: 999; box-shadow: 3px 3px 0px #969593;}
+.userdashboard h2	{font-size: 25px; margin-bottom: 20px;}
+.hidden			{visibility: hidden; display: none; line-height: 0px; height: 0px; margin: 0px; padding: 0px;}
+#div_itemadded.hidden	{display: none;}
+.productsbar		{float: none;}
+.homepage_product	{width: 160px; margin-bottom: 40px;}
+.homepage_product p	{margin-bottom: 0px;}
+.upsell_product		{width: 114px; margin-bottom: 40px;}
+.upsell_product img	{width: 114px;}
+.upsell_product h3	{font-size: 16px;}
+.upsell_product span	{font-size: 16px;}
+.product		{width: 215px; margin-bottom: 40px; margin-right: 27px;}
+.button			{background-color: #820405; color: #ffffff; padding: 5px; font-weight: bold; font-family: 'PT Sans Narrow', sans-serif; cursor: pointer;}
+.buttongreen		{background-color: #b0e501; color: #5f6a73; padding: 5px; font-weight: bold; font-family: 'PT Sans Narrow', sans-serif; cursor: pointer;}
+.priceconvert		{background-color: #4f535c; color: #b0e501; padding: 2px 2px 2px 5px; font-size: 18px;}
+.div_thumbnail img	{width: 173px; height: 213px; border-radius: 20px;}
+.homepage_thumbnail	{height: 213px; float: none; width: 173px; overflow: hidden;}
+.homepage_thumbnail img	{position: absolute; height: 213px; width: 173px;}
+.mini_prod_desc		{margin-left: 5px; margin-bottom: 10px; margin-top: 10px; width: 200px;}
+.homepage_mini_prod_desc{margin-left: 5px; margin-bottom: 10px; margin-top: 10px; width: 140px;}
+.mini_prod_desc	p	{margin-bottom: 3px;}
+.mini_prod_desc_1stline	{font-weight: bold; font-size: 120%;}
+.mini_prod_desc_2ndline	{font-weight: bold; font-size: 100%;}
+.mini_prod_desc_3rdline	{font-size: 90%;}
+.mini_desc_price	{font-weight: bold; font-size: 20px;}
+.add_buttons		{margin-left: 0px;}
+.qty_select_styler	{background-image:url('alloyimages/qty_select.jpg'); height: 34px; width: 88px; border: none; overflow: hidden;}
+.qty_select_styler select {box-shadow: none; background: transparent; background-image: none; border: none; height: 100%; width: 130%; line-height: 100%; padding-left: 33px; padding-top: 1px; font-size: 24px; font-weight: bold; color: ffffff; font-family: "arial narrow";}
+.qty_select_styler option	{background-color: #a3c639;}
+.add_to_cart		{margin-left: 5px; background-color: #b0e501; border-radius: 5px; padding: 5px 20px 5px 20px;}
+.add_to_cart a		{color: #414956; font-family: 'PT Sans Narrow', sans-serif; font-weight: bold;}
+.mini_add_to_cart	{background-color: #b0e501; border-radius: 5px; padding: 5px 20px 5px 20px;}
+.mini_add_to_cart a	{color: #414956; font-family: 'PT Sans Narrow', sans-serif; font-weight: bold; font-size: 12px;}
+h1.entry-title		{text-transform: uppercase;}
+.slide			{opacity: 0;}
+.pointer		{cursor: pointer;}
+.slide a		{display: block; line-height: 495px;}
+.headerrow		{background-color: #5f6a73; height: 30px;}
+.headerrow th		{color: #b0e501; text-transform: uppercase; text-align: left;}
+.totalrow		{border-top: solid 1px #5f6a73; height: 50px; width: 100%; float: none; text-align: right;}
+.totalrow div		{float: none; display: inline-block; vertical-align: middle;}
+.vertical_center	{float: none; display: inline-block; vertical-align: middle;}
+.alignright		{position: relative; float: right; margin-left: 20px;}
+.textright		{text-align: right; padding-right: 5px;}
+.red			{color: #820405;}
+.green			{color: #04B404;}
+.sitegreen		{color: #b0e501;}
+.grey			{color: #5f6a73;}
+.checkoutstrip		{border-top: solid 1px #5f6a73; width: 100%;}
+.checkoutstagetitle	{width: 100%; margin-left: 100px;}
+.checkoutstagetitle h2	{cursor: pointer;}
+.borderedsurround	{border: solid 2px #5f6a73; background-color: #fbfbfb;}	
+.borderedsurround p	{margin-bottom: 0px;}
+.address_label		{text-align: left;}
+.input_host		{padding-left: 20px;}
+.address_table		{margin-bottom: 20px;}
+.address_table td	{padding-top: 5px;}
+.input_host input	{width: 225px;}
+.input_host select	{width: 230px;}
+.tick			{width: 16px; height: 16px; background-image:url('alloyimages/tick.gif'); margin-left: 5px;}
+div.alert		{width: 16px; height: 16px; background-image:url('alloyimages/cross.gif'); margin-left: 5px; background-repeat: no-repeat; padding-left: 0px;}
+.inputselected		{border: solid 1px #b0e501;}
+.colourslectors	li	{list-style: none; height: 22px; width: 22px; float: left; cursor: pointer; margin-left: 4px;}
+.carbody1		{background-image:url('alloyimages/carbody1.jpg');}
+.carbody2		{background-image:url('alloyimages/carbody2.jpg');}
+.carbody3		{background-image:url('alloyimages/carbody3.jpg');}
+.carbody4		{background-image:url('alloyimages/carbody4.jpg');}
+.carbody5		{background-image:url('alloyimages/carbody5.jpg');}
+.carbody6		{background-image:url('alloyimages/carbody6.jpg');}
+.carbody7		{background-image:url('alloyimages/carbody7.jpg');}
+.carbody8		{background-image:url('alloyimages/carbody8.jpg');}
+.carbody9		{background-image:url('alloyimages/carbody9.jpg');}
+.carbody10		{background-image:url('alloyimages/carbody10.jpg');}
+.carbody11		{background-image:url('alloyimages/carbody11.jpg');}
+.alloy1			{background-image:url('alloyimages/alloy1.png');}
+.alloy2			{background-image:url('alloyimages/alloy2.png');}
+.alloy3			{background-image:url('alloyimages/alloy3.png');}
+.alloy4			{background-image:url('alloyimages/alloy4.png');}
+.alloy5			{background-image:url('alloyimages/alloy5.png');}
+.alloy6			{background-image:url('alloyimages/alloy6.png');}
+.alloy7			{background-image:url('alloyimages/alloy7.png');}
+.alloy8			{background-image:url('alloyimages/alloy8.png');}
+.alloy9			{background-image:url('alloyimages/alloy9.png');}
+.alloy10		{background-image:url('alloyimages/alloy10.png');}
+.gator1			{background-image:url('alloyimages/gatorcolor1.png');}
+.gator2			{background-image:url('alloyimages/gatorcolor2.png');}
+.gator3			{background-image:url('alloyimages/gatorcolor3.png');}
+.gator4			{background-image:url('alloyimages/gatorcolor4.png');}
+.gator5			{background-image:url('alloyimages/gatorcolor5.png');}
+.gator6			{background-image:url('alloyimages/gatorcolor6.png');}
+.gator7			{background-image:url('alloyimages/gatorcolor7.png');}
+.gator8			{background-image:url('alloyimages/gatorcolor8.png');}
+.gator9			{background-image:url('alloyimages/gatorcolor9.png');}
+.gator10		{background-image:url('alloyimages/gatorcolor10.png');}
+.gator11		{background-image:url('alloyimages/gatorcolor11.png');}
+.gator12		{background-image:url('alloyimages/gatorcolor12.png');}
+.gator13		{background-image:url('alloyimages/gatorcolor13.png');}
+.headercol1		{width: 120px; text-align: right; padding-right: 20px;}
+.headercol2		{width: 90px; text-align: right; padding-right: 20px;}
+.bold			{font-weight: bold;}
+.question		{font-weight: bold; margin-bottom: 5px; cursor: pointer; width: 100%;}
+.contactus_faq		{width: 100%;}
+.mobilesite		{visibility: hidden; display: none; line-height: 0px;}
+.cartthumb		{height: 100%;}
+.continuebutton		{margin-right: 100px; padding-left: 25px; padding-right: 25px;}
+.testimonialgroup	{margin-bottom: 20px;}
+
+.shareurl		{text-align: center; background-color: #828282; margin-top: 20px;}
+#customerref		{width: 190px;}
+#input_shareurl		{font-size: 25px; margin: 5px; width: 95%; background-color: #ffffff;}
+#div_upsels		{width: 100%; text-align: right;}
+#div_upsels p.upsell_prod_desc_1stline		{font-size: 14px; margin-bottom: 5px;}
+#div_contactform_tel	{width: 100%; font-size: 20px;}
+#div_contactus_address	{width: 610px; font-size: 17px; margin-top: 20px;}
+#div_contactus_faqs	{width: 610px; font-size: 17px;}
+#div_deliveryoptions	{float: right; text-align: right;}
+#div_deliveryoptions li	{list-style: none; margin-bottom: 5px;}
+#div_showhidestage5 h3	{font-size: 20px; margin-top: 20px; margin-bottom: 20px;}
+#div_showhidestage5 p	{margin-bottom: 10px;}
+#div_order_review .address_table {width: 100%;}
+#div_showhidestage4	{width: 80%;}
+#div_showhidestage5	{width: 80%;}
+#div_proceedpayment	{float: right;}
+#div_proceedpayment .button	{width: 200px;}
+#div_proceedpayment img	{position: relative; top: 10px; margin-right: 20px;}
+#div_terms_tick		{float: right;}
+#div_buyfitted_popup	{position: absolute; top: -115px; left: -150px; z-index: 99; background-color: #ffffff; padding: 20px; width: 300px;}
+#div_pagenumbers	{float: right; font-size: 24px;}
+#div_pagenumbers span	{color: #bad72f;}
+#div_pagenumbers_bottom	{float: right; font-size: 24px;}
+#div_pagenumbers_bottom span	{color: #bad72f;}
+#h1_products		{width: 175px; position: relative; float: left;}
+#select_progroups	{font-size: 20px; position: relative; float: left; margin-top: 8px;}
+#div_changeemailform	{width: 100%;}
+#div_useroptions p	{margin-bottom: 5px;}
+#div_formheader		{width: 100%; margin-bottom: 20px; border-bottom: solid 1px #D8D8D8;}
+#div_topleft		{width: 50%;}
+#div_topright		{width: 50%; text-align: right;}
+#h2_alreadyhave		{font-size: 100%; color: #5F5F5F; margin-top: -40px;}
+#div_overseas_visitor_box {position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 998; opacity: 1; background: none repeat scroll 0% 0% #5F5F5F;}
+#div_overseas_choice	{background-color: #ffffff; width: 600px; min-height: 300px; left: 50%; margin-left: -300px; top: 50%; margin-top: -150px; text-align: center;}
+#img_choicelogo			{margin-top: 10px;}
+#div_site_select_options	{width: 100%; margin-bottom: 10px; height: 150px;}
+#div_site_select_options h2	{color: #ffffff; font-size: 150%; margin-top: 10px;}
+#div_internationalchoice	{width: 200px; height: 100%; background-color: #5F5F5F; color: #ffffff; cursor: pointer; margin-left: 75px; background-image:url('alloyimages/globe.png'); background-repeat: no-repeat; background-position: 50px 40px;}
+#div_ukchoice			{width: 200px; height: 100%; background-color: #5f6a73; color: #ffffff; cursor: pointer; margin-left: 50px; background-image:url('alloyimages/unionflag.png'); background-repeat: no-repeat; background-position: 10px 40px;}
+#select_countrypicker	{width: 100%; text-align: right;}
+#div_loginform		{border-top: solid 1px #5f6a73; width: 100%;}
+#div_donthave_account	{border-top: solid 1px #5f6a73; border-bottom: solid 1px #5f6a73; height: 50px; width: 100%; margin-top: 20px; text-align: center; line-height: 50px; vertical-align: middle;}
+#primary		{width: 970px; padding-top: 30px;}
+#content		{width: 100%; margin-bottom: 20px;}
+#primary h1		{margin-bottom: 40px;}
+#secondary		{padding-top: 20px;}
+#secondary li		{list-style: none;}
+#content p		{font-size: 17px; margin-bottom: 20px;}
+#div_top_border		{width: 100%; height: 9px; background-image:url('alloyimages/horizontal_border.jpg')}
+#div_logobar		{float: none; text-align: center; padding: 10px 0px 0px 0px; margin-left: auto; margin-right: auto; width: 970px;}
+#div_stacked_nav	{text-align: right; float: right;}
+#div_stacked_nav div	{display: block; float: none; margin-bottom: 7px; vertical-align: center;}
+#div_stacked_nav span	{padding-left: 5px;}
+#div_stacked_nav img	{vertical-align: middle;}
+#div_logo		{width: 400px;}
+#div_navbar		{background-color: #5f6a73; width: 100%;}
+#div_navigation		{text-align: center; margin: auto; float: none; width: 979px; font-size: 17px;}
+#div_navigation ul	{float: left; margin-left: 0px; margin-right: 0px; margin-top: 17px; margin-bottom: 17px;}
+#div_navigation	li	{list-style: none; position: relative; float: left; text-align: center; border-right: solid 1px #9ea9af; padding-right: 13px; margin-left: 13px;}
+#div_navigation a	{color: #b0e501;}
+#div_slider		{width: 100%; text-align: center; height: 329px; overflow: hidden;}
+#div_slider div		{background-position: center top; width: 100%; height: 100%; position: absolute; background-repeat: no-repeat;}
+#div_feature_products_bar	{width: 100%;}
+#div_products_wrapper		{margin: 20px auto 0px auto; float: none; width: 970px;}
+#div_accredit_bar	{width: 100%; height: 144px; background-image:url('alloyimages/bkg_accredit_bar.jpg');}
+#div_accredit_wrapper	{float: none; margin: auto; width: 970px; padding-top: 10px;}
+#div_bottom_bar		{width: 100%; height: 186px; background-color: #5f6a73;}
+#div_bottom_wrapper	{float: none; margin: auto; width: 970px; padding-top: 30px;}
+#div_quick_links	{margin-left: 60px; margin-top: 15px;}
+#div_quick_links h4	{color: #cccccc; font-size: 15px;}
+#div_quick_links li	{color: #cccccc; font-size: 14px; list-style: none;}
+#div_quick_links a	{color: #cccccc;}
+#div_quick_links_col2	{margin-left: 40px; margin-top: 27px;}
+#div_quick_links_col2 li	{color: #cccccc; font-size: 14px; list-style: none;}
+#div_quick_links_col2 a	{color: #cccccc;}
+#div_contact_and_copy	{color: #cccccc; margin-top: 15px; text-align: right; float: right; margin-right: 20px;}
+#div_contact_and_copy a {color: #cccccc;}
+#div_cartsurround	{width: 98%; padding: 1%; border: solid 2px #5f6a73; float: none; background-color: #f8f6f7; margin-bottom: 40px;}
+.p_copyright		{font-size: 13px;}
+#p_copyright		{margin-top: 35px;}
+#p_bottomtel		{font-size: 18px;}
+#tbl_basket td, th	{padding-left: 5px;}
+#tbl_basket td		{height: 114px;}
+#div_bottom_toolbar	{width: 100%; height: 241px; background-image:url('alloyimages/bkg_bottom_toolbar.jpg'); text-align: center;}
+#div_dealerform input	{width: 200px; margin-left: 20px; height: 20px; margin-bottom: 5px;}
+#div_dealerform select	{width: 204px; margin-left: 20px; height: 20px; margin-bottom: 5px;}
+#div_formsurround	{width: 98%; padding: 1%; border: solid 2px #5f6a73; margin-bottom: 40px;}
+#div_contentright	{width: 50%; text-align: center;}
+#div_contentright p	{margin-bottom: 10px;}
+#div_retailregform	{width: 50%;}
+#div_retailregform input {width: 266px; padding: 8px; 10px; font-size: 110%;}
+#div_retailregform .radio {width: 10px; height: 10px; padding: 0px;}
+#div_logintable input 	{width: 266px; padding: 8px; 10px; font-size: 110%;}
+#div_logintable2 p	{margin-bottom: 0px;}
+#div_login		{width: 400px;}
+#div_login p		{margin-bottom: 0px;}
+#table_checkout_addresses td {vertical-align: top;}
+#table_checkout_addresses h3	{font-size: 18px;}
+#table_retailregform td	{padding-bottom: 5px;}
+#table_retailregform	{font-size: 110%;}
+#div_billingform div	{float: right;}
+#div_shippingform div	{float: right;}
+#selectbar		{float: left; width: 100%; margin-top: 40px;}
+#selectbar div		{float: left;}
+#input_enterpostcode	{background-color: #eae6e5; height: 45px; width: 330px; color: #5b646b; padding-left: 20px; font-size: 120%; float: left;}
+#div_go			{margin-left: 5px; background-color: #b0e501; border-radius: 5px; padding: 5px 40px 5px 40px; height: 40px; line-height: 40px; vertical-align: middle; font-size: 175%; font-family: 'PT Sans Narrow', sans-serif; text-transform: uppercase; cursor: pointer; font-weight: bold;}
+#div_businesscard	{background-color: #b0e501; width: 427px; height: 190px; margin-top: 30px; padding: 20px; font-size: 130%;}
+#div_businesscard p	{margin-bottom: 0px;}
+#div_businesscard span	{font-size: 100%;}
+#div_contactussurround	{width: 100%; margin-bottom: 20px;}
+#div_enquiryform			{width: 326px; float: right;}
+#div_enquiryform h2			{font-size: 32px;}	
+#div_enquiryform	textarea	{background-color: #eeeaeb; color: #5a636c; width: 100%; padding-left: 5px;}
+#div_enquiryform	.biginput	{background-color: #eeeaeb; color: #5a636c; width: 100%; padding-left: 5px; height: 50px; font-size: 120%;}
+#div_enquiryform	.buttongreen	{width: 150px; border-radius: 5px;}
+#div_social_media	{width: 155px;}
+#div_products_controlbar	{width: 80%; float: right;}
+#div_bottomcontrolbar		{width: 80%; float: right; margin-bottom: 20px;}
+#div_checkoutbuttonline		{line-height: 20px; width: 947px;}
+.fittersurround			{width: 60%}
+#div_guestorregister	{width: 400px; margin-left: 100px;}
+#div_billingform	{margin-left: 100px; margin-top: 20px; float: left; width: 400px;}
+#div_shippingform	{margin-left: 100px; margin-top: 20px; float: left; width: 400px;}
+#div_deliveryinfo	{margin-left: 0px; margin-top: 20px; float: left; width: 300px;}
+#div_logintable		{width: 100%; margin-left: 20px; margin-top: 20px;}
+#p_youareloggedin	{margin-left: 100px;}
+#div_testimonialssurround	{margin-bottom: 40px;}
+
+@media screen and (max-width: 1024px)	
+{
+	#div_slider div		{background-size: 1524px;}
+	#div_slider		{height: 250px;}
+	body			{width: 1024px;}
+}
+@media screen and (max-width: 512px)	
+{
+	body			{width: auto;}
+	h1			{font-size: 25px;}
+	h2			{font-size: 20px;}
+	.mobilesite		{visibility: visible; display: inline; line-height: 20px;}
+	.hiddenfrommobile	{visibility: hidden; display: none; line-height: 0px;}
+	.homepage_product	{left: 50%; margin-left: -80px;}
+	.product		{left: 50%; margin-left: -80px;}
+	.mobilewrapper		{width: 100%;}
+	.p_copyright		{margin: 0px;}
+	.productsbar		{width: 100%;}
+	.centered		{width: 100%;}
+	.cartthumb		{height: 50%;}
+	.checkoutstagetitle	{width: 100%; margin-left: 5px;}
+	.continuebutton		{margin-right: 0px; padding-left: 25px; padding-right: 25px; margin-top: 20px;}
+	.headercol1		{}
+	#div_slider div		{background-size: 550px;}
+	#div_slider		{height: 90px;}
+	#div_logobar		{width: 100%;}
+	#div_logo		{width: 100%; margin-bottom: 10px;}
+	#div_logo img		{width: 80%;}
+	#div_navbar		{width: 100%; height: 40px; color: #b0e501; font-weight: bold; font-size: 18px;}
+	#div_navbar div		{height: 100%; line-height: 40px; vertical-align: middle;}
+	#div_mobile_navigation	{width: 100%;}	
+	#div_mobilemenu		{float: right;}
+	#div_goto		{margin-left: 20px;}
+	#div_mobilemenu		{margin-right: 5px;}
+	#div_mobilemenu img	{margin-top: 5px;}
+	#div_feature_products_bar	{width: 100%;}
+	#div_products_wrapper	{width: 100%;}
+	#div_accredit_bar	{height: auto;}
+	#div_accredit_bar img	{width: 100%;}
+	#div_bottom_bar		{width: 100%; height: auto; padding-bottom: 20px;}
+	#div_bottom_wrapper	{width: 100%;}
+	#div_contact_and_copy	{width: 100%;}
+	#div_social_media	{width: 100%; text-align: center;}
+	#div_contact_and_copy	{width: 100%; text-align: center; margin: 0px;}
+	#p_bottomtel		{font-size: 15px; margin-top: 20px}
+	#p_copyright		{margin-top: 10px;}
+	#div_mobiledropmenu	{width: 100%; background-color: #ffffff; position: absolute; z-index: 997; top: 40px; left: 0px;}
+	#div_mobiledropmenu li	{list-style: none; padding-left: 50px; background-color: #ffffff; border-bottom: 2px #eaeaea solid;}
+	#div_mobiledropmenu a	{display: block; font-weight: normal;}
+	#div_mobiledropmenu li.dark_li	{background-color: #5f6a73; border-bottom: 1px #000000 solid;}
+	#primary		{width: 100%;}
+	#primary h1		{margin-bottom: 10px;}
+	li.dark_li a		{color: #ffffff; text-transform: uppercase;}
+	#div_products_controlbar	{width: 100%; margin-bottom: 20px;}
+	#div_enquiryform	{width: 100%; float: left; margin-top: 20px;}
+	#div_contactus_address	{width: 100%;}
+	#div_checkoutbuttonline	{width: 100%;}
+	#div_cartsurround	{width: 100%;}
+	#div_checkoutbutton	{margin-top: -70px;}
+	#div_businesscard	{width: 90%; height: auto; padding: 5%;}
+	#input_enterpostcode	{width: 95%; padding-left: 5%;}
+	#div_go			{margin-top: 5px; margin-left: 0px;}
+	#div_guestorregister	{margin-left: 5px; width: 100%;}
+	#div_showhidestage1	{width: 100%;}
+	#div_login		{width: 100%; margin-left: 5px;}
+	#div_billingform	{margin-left: 0px; margin-top: 20px; float: left; width: 100%;}
+	#div_shippingform	{margin-left: 0px; margin-top: 20px; float: left; width: 100%;}
+	#div_billingform input	{width: 80%;}
+	#div_billingform select	{width: 80%;}
+	#div_shippingform input	{width: 80%;}
+	#div_shippingform select{width: 80%;}	
+	#table_checkout_addresses	{font-size: 10px;}
+	#div_proceedpayment img	{margin-bottom: 20px;}
+	#div_showhidestage4	{width: 100%;}
+	#div_showhidestage5	{width: 100%;}
+	#div_deliveryinfo	{width: 90%;}
+	#div_deliveryoptions	{width: 95%; margin-top: 20px; margin-right: 5%;}
+	#div_deliveryoptions li	{font-size: 11px;}
+	#div_proceedpayment	{width: 95%; margin-top: 20px; margin-right: 5%; text-align: right;}
+	.loginbox		{width: 100%; left: 0px; margin-left: 0px;}
+	#div_logintable		{width: 100%; margin-left: 0px; margin-top: 20px;}
+	#p_youareloggedin	{margin-left: 0px;}
+	.userdashboard		{width: 90%; padding: 5%; margin-left: 0px; left: 0%;}
+	.userdashboard h2	{font-size: 20px;}
+	#div_retailregform input	{width: 200px;}
+	#div_contactus_faqs	{width: 100%;}
+	.fittersurround		{width: 100%;}
+	
+}

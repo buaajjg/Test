@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script language="JavaScript" type="text/javascript">
+    function display(){
+        var status=document.getElementById("hi").style.display;
+        if(status=="none"){
+            document.getElementById("hi").style.display="block";
+        }
+        else{
+            document.getElementById("hi").style.display="none";
+        }
+  }
+
+
+
+
+</script>
+<body ng-app = "app">
+
+<div >
+
+<table>
+    <tr>
+    <td>UserName</td>
+     <td>   <input  type="text"  name="name" ng-model="n" placeholder="Username"/> </td>
+    </tr>
+    <tr>
+        <td>E-mail</td>
+        <td><input ng-model="e" id="b" type="text" placeholder="E-mail"/> </td>
+
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input ng-model="p" id="c" type="password" placeholder="password"/> </td>
+    </tr>
+    <tr>
+        <td>Birth-date</td>
+        <td><input ng-model="d" type="date" placeholder="BirthDate"></td>
+    </tr>
+    <tr>
+    <td>Gender</td>
+        <td>Male:<input type="radio" name="g" ng-model="gen" value="M">
+                Female:<input type="radio" name="g" ng-model="gen" VALUE="F"></td>
+    </tr>
+</table>
+    <button ng-click = "reset()"> Reset</button>
+    <input type="button" value="SUBMIT"  onclick="display()">
+
+
+
+
+
+
+    <div id="hi" style="display: none">
+    User-Name: <span ng-bind="n" style="color: red"> </span><br>
+    E-mail: <span ng-bind="e" style="color: red"> </span><br>
+    Password:<span ng-bind="p" style="color: red"> </span><br>
+    Birthdate:<span ng-bind="d" style="color: red"> </span><br>
+    Gender:<span ng-bind="gen" style="color: red"> </span><br>
+    </div>
+
+
+
+    <input name = "firstname" type = "text" ng-model = "firstName" required>
+    <input name = "lastname" type = "text" ng-model = "lastName" required>
+    <input name = "email" type = "email" ng-model = "email" required>
+    <button ng-click = "reset()">Reset</button>
+
+
+
+</div >
+
+<script>
+    function studentController($scope) {
+        $scope.reset = function(){
+            $scope.firstName = "Mahesh";
+            $scope.lastName = "Parashar";
+            $scope.email = "MaheshParashar@tutorialspoint.com";
+        }
+
+        $scope.reset();
+    }
+</script>
+
+
+
+
+</body >
+</html>

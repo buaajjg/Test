@@ -1,0 +1,106 @@
+﻿<head>
+
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Colour Selector | AlloyGator Canada</title>
+
+<link rel='stylesheet' id='twentytwelve-style-css'  href='alloystyle.css' type='text/css' media='all' />
+
+
+		<!-- Start ios -->
+		<script type="text/javascript">
+			(function($){
+				$(document).ready( function() {
+					$( '#fancybox-overlay' ).css({
+						'width' : $(document).width()
+					});
+				});
+			})(jQuery);
+		</script>
+		<!-- End ios -->
+	
+</head>
+
+
+
+<div class="centered">
+	<div id="primary" class="site-content" style="margin-bottom: 20px;;">
+
+			<div style="float: left;">
+				<h1 style="margin-bottom: 10px;">CHOOSE YOUR COLOUR</h1>
+				<p><strong>Simply select your car, wheel and AlloyGator colour 
+				to view your style.</strong></p>
+			</div>
+			<div style="float: right;">
+			</div>
+
+			<div id="selectbar">
+				<div id="div_selectcar" style="margin-left: 2%; height: 75px; background-image:url('alloyimages/car_icon.gif'); background-repeat: no-repeat; background-position: 0px 5px;">
+					<h2 style="margin-left: 40px; line-height: 36px; vertical-align: middle; font-size: 150%;">
+					Select Car Colour</h2>
+					<ul class="colourslectors" style="margin-top: 10px;">
+						<li style="background-color: #9b9b9b; margin-left: 0px;" id="carcolor1" onclick="document.getElementById('div_thecar').className='carbody1'; document.getElementById('selected_carcolor').value='1';"></li>
+						<li style="background-color: #473e39;" id="carcolor2" onclick="document.getElementById('div_thecar').className='carbody2'; document.getElementById('selected_carcolor').value='2';"></li>
+						<li style="background-color: #000000;" id="carcolor3" onclick="document.getElementById('div_thecar').className='carbody3'; document.getElementById('selected_carcolor').value='3';"></li>
+						<li style="background-color: #ffffff; border: solid 1px #777775; width: 20px; height: 20px;" id="carcolor4" onclick="document.getElementById('div_thecar').className='carbody4'; document.getElementById('selected_carcolor').value='4';"></li>
+						<li style="background-color: #222f75;" id="carcolor5" onclick="document.getElementById('div_thecar').className='carbody5'; document.getElementById('selected_carcolor').value='5';"></li>
+						<li style="background-color: #81a623;" id="carcolor6" onclick="document.getElementById('div_thecar').className='carbody6'; document.getElementById('selected_carcolor').value='6';"></li>
+						<li style="background-color: #f5fa00;" id="carcolor7" onclick="document.getElementById('div_thecar').className='carbody7'; document.getElementById('selected_carcolor').value='7';"></li>
+						<li style="background-color: #faa202;" id="carcolor8" onclick="document.getElementById('div_thecar').className='carbody8'; document.getElementById('selected_carcolor').value='8';"></li>
+						<li style="background-color: #bf0a01;" id="carcolor9" onclick="document.getElementById('div_thecar').className='carbody9'; document.getElementById('selected_carcolor').value='9';"></li>
+						<li style="background-color: #cf0076;" id="carcolor10" onclick="document.getElementById('div_thecar').className='carbody10'; document.getElementById('selected_carcolor').value='10';"></li>
+						<li style="background-color: #0096fe;" id="carcolor11" onclick="document.getElementById('div_thecar').className='carbody11'; document.getElementById('selected_carcolor').value='11';"></li>
+					</ul>
+				</div>
+				<div id="div_selectalloy" style="margin-left: 30px; height: 75px; background-image:url('alloyimages/wheel_icon.gif'); background-repeat: no-repeat;">
+					<h2 style="margin-left: 40px; line-height: 36px; vertical-align: middle; font-size: 150%;">
+					Select Alloy Colour</h2>
+					<ul class="colourslectors" style="margin-top: 10px;">
+						<li style="background-color: #000000; margin-left: 0px;" id="alloycolor1" onclick="document.getElementById('div_thealloy').className='alloy1'; document.getElementById('selected_alloycolor').value='1';"></li>
+						<li style="background-color: #302e2f;" id="alloycolor2" onclick="document.getElementById('div_thealloy').className='alloy2'; document.getElementById('selected_alloycolor').value='2';"></li>
+						<li style="background-color: #4d4d4b;" id="alloycolor3" onclick="document.getElementById('div_thealloy').className='alloy3'; document.getElementById('selected_alloycolor').value='3';"></li>
+						<li style="background-color: #676767;" id="alloycolor4" onclick="document.getElementById('div_thealloy').className='alloy4'; document.getElementById('selected_alloycolor').value='4';"></li>
+						<li style="background-color: #828282;" id="alloycolor5" onclick="document.getElementById('div_thealloy').className='alloy5'; document.getElementById('selected_alloycolor').value='5';"></li>
+						<li style="background-color: #9c9a9b;" id="alloycolor6" onclick="document.getElementById('div_thealloy').className='alloy6'; document.getElementById('selected_alloycolor').value='6';"></li>
+						<li style="background-color: #b5b5b5;" id="alloycolor7" onclick="document.getElementById('div_thealloy').className='alloy7'; document.getElementById('selected_alloycolor').value='7';"></li>
+						<li style="background-color: #cecece;" id="alloycolor8" onclick="document.getElementById('div_thealloy').className='alloy8'; document.getElementById('selected_alloycolor').value='8';"></li>
+						<li style="background-color: #e5e5e5;" id="alloycolor9" onclick="document.getElementById('div_thealloy').className='alloy9'; document.getElementById('selected_alloycolor').value='9';"></li>
+						<li style="background-color: #ffffff; border: solid 1px #777775; width: 20px; height: 20px;" id="alloycolor10" onclick="document.getElementById('div_thealloy').className='alloy10'; document.getElementById('selected_alloycolor').value='10';"></li>
+					</ul>
+				</div>
+				<div id="div_selectgator" style="margin-left: 30px; height: 75px; background-image:url('alloyimages/gator_icon.gif'); background-repeat: no-repeat; left: 0px; top: 0px;">
+					<h2 style="margin-left: 40px; line-height: 36px; vertical-align: middle; font-size: 150%;">
+					Select Alloygator Colour</h2>
+					<ul class="colourslectors" style="margin-top: 10px;">
+						<li style="background-color: #000000; margin-left: 0px;" id="gatorcolor1" onclick="document.getElementById('div_thegator').className='gator1'; document.getElementById('selected_gatorcolor').value='1';" title="Black"></li>
+						<li style="background-color: #635a5b;" id="gatorcolor2" onclick="document.getElementById('div_thegator').className='gator2'; document.getElementById('selected_gatorcolor').value='2';" title="Graphite"></li>
+						<li style="background-color: #b0ada8;" id="gatorcolor3" onclick="document.getElementById('div_thegator').className='gator3'; document.getElementById('selected_gatorcolor').value='3';" title="Silver"></li>
+						<li style="background-color: #ffffff; border: solid 1px #777775; width: 20px; height: 20px;" id="gatorcolor4" onclick="document.getElementById('div_thegator').className='gator4'; document.getElementById('selected_gatorcolor').value='4';" title="White"></li>
+						<li style="background-color: #dd0000;" id="gatorcolor5" onclick="document.getElementById('div_thegator').className='gator5'; document.getElementById('selected_gatorcolor').value='5';" title="Red"></li>
+						<li style="background-color: #162686;" id="gatorcolor6" onclick="document.getElementById('div_thegator').className='gator6'; document.getElementById('selected_gatorcolor').value='6';" title="Blue"></li>
+						<li style="background-color: #81a623;" id="gatorcolor7" onclick="document.getElementById('div_thegator').className='gator7'; document.getElementById('selected_gatorcolor').value='7';" title="Green"></li>
+						<li style="background-color: #fdf800;" id="gatorcolor8" onclick="document.getElementById('div_thegator').className='gator8'; document.getElementById('selected_gatorcolor').value='8';" title="Yellow"></li>
+						<li style="background-color: #fda400;" id="gatorcolor9" onclick="document.getElementById('div_thegator').className='gator9'; document.getElementById('selected_gatorcolor').value='9';" title="Orange"></li>
+						<li style="background-color: #f96579;" id="gatorcolor10" onclick="document.getElementById('div_thegator').className='gator10'; document.getElementById('selected_gatorcolor').value='10';" title="Pink"></li>
+						<li style="background-color: #0096fe;" id="gatorcolor11" onclick="document.getElementById('div_thegator').className='gator11'; document.getElementById('selected_gatorcolor').value='11';" title="Sky"></li>
+						<li style="background-color: #7523cd;" id="gatorcolor12" onclick="document.getElementById('div_thegator').className='gator12'; document.getElementById('selected_gatorcolor').value='12';" title="Purple"></li>
+						<li style="background-color: #79dfc7; border: solid 1px #777775; width: 20px; height: 20px;" id="gatorcolor13" onclick="document.getElementById('div_thegator').className='gator13'; document.getElementById('selected_gatorcolor').value='13';" title="Glow in the Dark"></li>
+					</ul>
+				</div>
+				<div id="div_thecar" class="carbody1" style="width: 714px; height: 381px; margin-top: 40px; left: 50%; margin-left: -357px; border: solid 1px #c1c1c1;">
+					<div id="div_thealloy" class="alloy1" style="width: 267px; height: 267px; top: 84px; left: 275px;"></div>
+					<div id="div_thegator" class="gator1" style="width: 273px; height: 270px; top: 83px; left: 271px; position: absolute; z-index: 99;"></div>
+				</div>
+			</div>
+			<div class="hidden" id="div_shareurl" style="width: 100%;">
+				<input type="text" id="input_shareurl" value=""/>
+			</div>
+			<input type="hidden" id="selected_carcolor" value='1'/>
+			<input type="hidden" id="selected_alloycolor" value="1"/>
+			<input type="hidden" id="selected_gatorcolor" value="1"/>
+	</div><!-- #primary -->
+</div>
+
+
+</body>
+</html>
