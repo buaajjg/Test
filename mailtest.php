@@ -4,7 +4,6 @@
  * Load to your WP root folder.
  */
 
-// ��˫������������ַ������������ַ
 $to = "buaajjg@gmail.com";
 
 // No need to make changes below this line
